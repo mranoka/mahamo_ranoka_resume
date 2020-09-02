@@ -1,0 +1,164 @@
+main {
+    font-family: monospace, sans-serif, cursive;
+}
+
+hr {
+    border: 1px dashed hsl(240, 20%, 60%);
+}
+
+#landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: auto;
+}
+
+#main-pic {
+    width: 60%;
+    height: auto;
+    border-radius: 100%;
+
+}
+
+#page-header {
+    height: 100vh;
+    width: auto;
+    background-color: hsl(336, 100%, 60%);
+}
+
+.nav-list {
+    padding-top: 13px;
+    list-style-type: none;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.nav-linx:hover {
+    text-decoration: none;
+    color: hsl(120, 100%, 55%);
+    padding-left: 7px;
+    border-left: 5px solid hsl(120, 100%, 55%);
+
+}
+
+.nav-linx {
+    color: white;
+    padding-left: 7px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#nav-bar {
+    background-color: hsl(240, 100%, 70%);
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+#author-name {
+    font-size: 70px;
+}
+
+#author-occ {
+    font-size: 50px;
+}
+
+#name-div {
+    margin-top: 15px;
+}
+
+#portfolio-section {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(300, 100%, 90%);
+    margin-top: 25px;
+}
+
+#portfolio-head {
+    font-size: 55px;
+}
+
+.label {
+    margin-top: 7px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(150, 100%, 70%);
+    margin-top: 25px;
+}
+
+#about-head {
+    font-size: 55px;
+
+}
+
+#about-col1,
+#about-col2 {
+    text-align: justify;
+    font-size: 20px;
+    background-color: hsl(91, 100%, 95%);
+    border-radius: 5px;
+}
+
+#contact-head {
+    font-size: 55px;
+    text-align: center;
+}
+
+#contact-section {
+    margin-top: 25px;
+}
+
+.contacts {
+    text-decoration: underline;
+}
+
+#info-sec {
+    margin-bottom: 25px;
+}
+
+#contact-section {
+    color: white;
+    background-color: hsl(240, 20%, 45%);
+}
+
+#other-work {
+    color: white;
+    margin-left: 5%;
+    font-size: 27px
+}
+
+#web-icons {
+    display: -webkit- flex;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+}
+
+.web-icon {
+    color: white;
+    margin-left: 10px;
+    font-size: 27px;
+}
+
+.sep-div {
+    border-left: 2px solid white;
+}
