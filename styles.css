@@ -112,7 +112,8 @@ hr {
 }
 
 #about-col1,
-#about-col2 {
+#about-col2,
+#about-col3 {
     text-align: justify;
     font-size: 20px;
     background-color: hsl(91, 100%, 95%);
@@ -161,4 +162,12 @@ hr {
 
 .sep-div {
     border-left: 2px solid white;
+}
+
+
+
+@media screen and (min-width: 576px) {
+    #about-col1 {
+        margin-left: 55px;
+    }
 }
